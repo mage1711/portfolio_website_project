@@ -1,8 +1,14 @@
 // xl
 @include mediaxl {
+  .project {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 // l
 @include medialg {
+  .project {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 // m
 @include mediamd {
@@ -46,10 +52,16 @@
       "job3";
     grid-template-columns: 1fr;
   }
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 // s
 @include mediasm {
   main#home h1 {
     margin-top: 10vh;
+  }
+  .project {
+    grid-template-columns: 1fr;
   }
 }
