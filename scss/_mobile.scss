@@ -37,6 +37,15 @@
       height: 150px;
     }
   }
+  .about_info {
+    grid-template-areas:
+      "biopic"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+    grid-template-columns: 1fr;
+  }
 }
 // s
 @include mediasm {
